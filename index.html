@@ -52,6 +52,7 @@
       <button class="hero__button">Shop Now</button>
     </section>
 
+    <!-- check this latter for render using JS -->
     <section id="feature" class="feature section-p1">
       <div class="feature-box">
         <img
@@ -143,8 +144,72 @@
       <button class="banner-button normal">Explore More</button>
     </section>
 
-    <section id="new_arrivals" class="new_arrivals"></section>
+    <section id="product1" class="product1 section-p1">
+      <h2 class="product1__text-h2">New Arrivals</h2>
+      <p class="product1__text-p">Summer Collection New Modern Design</p>
+      <div class="product__container" id="product-container-2">
+        <!-- this section will be rendered by JS -->
+        <template>
+          <div class="product">
+            <img
+              src="./assets/img/products/f1.jpg"
+              alt="product 1"
+              class="product-img"
+            />
+            <div class="product-des">
+              <span class="product-brand">brand</span>
+              <h5 class="product-title">Flower colorfull T-Shirt</h5>
+              <div class="product-stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <h4 class="product-price">$78</h4>
+            </div>
+            <a href="#" class="product_cart-link">
+              <i class="fas fa-shopping-cart cart"></i>
+            </a>
+          </div>
+        </template>
+      </div>
+    </section>
 
+    <section id="sm-banner" class="sm-banner section-p1">
+      <div class="sm-banner-box">
+        <h4 class="sm-banner__text-h4">crazy deals</h4>
+        <h2 class="sm-banner__text-h2">buy 1 get 1 free</h2>
+        <span class="sm-banner__button"
+          >The best classic dress is ob sale at cara</span
+        >
+        <button class="sm-banner__button white">Learn More</button>
+      </div>
+
+      <div class="sm-banner-box sm-banner-box-2">
+        <h4 class="sm-banner__text-h4">sping/summer</h4>
+        <h2 class="sm-banner__text-h2">upcomming seasson</h2>
+        <span class="sm-banner__button"
+          >The best classic dress is ob sale at cara</span
+        >
+        <button class="sm-banner__button white">Collection</button>
+      </div>
+    </section>
+
+    <secion id="banner3" class="banner3">
+      <div class="sm-banner-box-3">
+        <h2 class="sm-banner__text-h2">SEASONAL SALE</h2>
+        <h3 class="sm-banner__text-h3">Whinter Collection -50% off</h3>
+      </div>
+      <div class="sm-banner-box-3 banner-box-2">
+        <h2 class="sm-banner__text-h2">SEASONAL SALE</h2>
+        <h3 class="sm-banner__text-h3">Whinter Collection -50% off</h3>
+      </div>
+      <div class="sm-banner-box-3 banner3">
+        <h2 class="sm-banner__text-h2">SEASONAL SALE</h2>
+        <h3 class="sm-banner__text-h3">Whinter Collection -50% off</h3>
+      </div>
+    </secion>
     <!-- scripts -->
     <script src="js/app.js"></script>
   </body>
