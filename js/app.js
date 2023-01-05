@@ -1,4 +1,23 @@
-// this arrays could be replaced for a mock.json nd use fetch API for render all of ten
+// NAVBAR
+console.log("app conected");
+
+const bar = document.getElementById("bar");
+const nav = document.getElementById("navbar");
+const close = document.getElementById("close");
+
+if (bar) {
+  bar.addEventListener("click", () => {
+    nav.classList.add("active");
+  });
+}
+
+if (close) {
+  close.addEventListener("click", () => {
+    nav.classList.remove("active");
+  });
+}
+
+// this arrays could be replaced for a mock.json and use fetch API for render all of ten
 
 let products = new Array();
 products[0] = "../assets/img/products/f1.jpg";
