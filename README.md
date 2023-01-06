@@ -1,1 +1,1 @@
-# Fake e-commerce
+# E-commerce Template
