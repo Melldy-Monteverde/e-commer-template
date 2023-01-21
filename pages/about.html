@@ -8,16 +8,16 @@
     <script src="https://kit.fontawesome.com/6ad2795456.js" defer></script>
     <link
       rel="shortcut icon"
-      href="./assets/img/logo.png"
+      href="../assets/img/logo.png"
       type="image/x-icon"
     />
-    <link rel="stylesheet" href="style/style.css" />
+    <link rel="stylesheet" href="../style/style.css" />
   </head>
   <body>
     <header id="header" class="header">
-      <a href="#" class="header__logo-link">
+      <a href="../index.html" class="header__logo-link">
         <img
-          src="./assets/img/logo.png"
+          src="../assets/img/logo.png"
           alt="cara shop"
           class="header__logo-img"
         />
@@ -26,22 +26,22 @@
       <nav id="nav" class="nav">
         <ul class="nav__ul" id="navbar">
           <li class="nav__li">
-            <a href="index.html" class="nav__links active">Home</a>
+            <a href="../index.html" class="nav__links">Home</a>
           </li>
           <li class="nav__li">
-            <a href="./pages/shop.html" class="nav__links">Shop</a>
+            <a href="./shop.html" class="nav__links">Shop</a>
           </li>
           <li class="nav__li">
-            <a href="./pages/blog.html" class="nav__links">Blog</a>
+            <a href="./blog.html" class="nav__links">Blog</a>
           </li>
           <li class="nav__li">
-            <a href="./pages/about.html" class="nav__links">About</a>
+            <a href="#" class="nav__links active">About</a>
           </li>
           <li class="nav__li">
-            <a href="./pages/contact.html" class="nav__links">Contact</a>
+            <a href="./contact.html" class="nav__links">Contact</a>
           </li>
           <li class="nav__li">
-            <a href="./pages/cart.html" class="nav__links lg-bag" id="lg-bag">
+            <a href="./cart.html" class="nav__links lg-bag" id="lg-bag">
               <i class="fas fa-shopping-bag"></i>
             </a>
           </li>
@@ -58,19 +58,49 @@
       </div>
     </header>
 
-    <section id="hero" class="hero">
-      <h4 class="hero__text-h4">Trade-in-offer</h4>
-      <h2 class="hero__text-h2">Super value deals</h2>
-      <h1 class="hero__text-h1">On all products</h1>
-      <p class="hero__text-p">Save more with cupons & up to 70% oof!</p>
-      <button class="hero__button">Shop Now</button>
+    <section id="page-header" class="about-header">
+      <h2 class="hero__text-h2">#KnowUs</h2>
+      <p class="hero__text-p">
+        Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint
+        cillum sint consectetur cupidatat.
+      </p>
     </section>
 
-    <!-- check this latter for render using JS -->
+    <section id="about-head" class="about-head section-p1">
+      <img
+        src="../assets/img/about/a6.jpg"
+        alt="who we are foto"
+        class="about-head-img"
+      />
+      <div class="about-head-div">
+        <h2 class="about-head-h2">Who we are?</h2>
+        <p class="about-head-p">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia
+          distinctio aspernatur amet optio voluptatibus dolorum illo
+          exercitationem, iste sunt quam molestias eaque, sed, nemo assumenda
+          modi alias enim qui maxime!
+        </p>
+        <abbr class="about-head-abbr"
+          >Create stunning images with as much or as little control as you like
+          thanks to choise of Basic and Creative modes.</abbr
+        >
+      </div>
+    </section>
+
+    <section id="about-app" class="about-app">
+      <h1 class="about-app-h1">
+        Download Our
+        <a href="#" class="about-app-h1-a">App</a>
+      </h1>
+      <div class="about-app-video">
+        <video autoplay muted loop src="../assets/img/about/1.mp4"></video>
+      </div>
+    </section>
+
     <section id="feature" class="feature section-p1">
       <div class="feature-box">
         <img
-          src="./assets/img/features/f1.png"
+          src="../assets/img/features/f1.png"
           alt="feature 1"
           class="feature__img"
         />
@@ -78,7 +108,7 @@
       </div>
       <div class="feature-box">
         <img
-          src="./assets/img/features/f2.png"
+          src="../assets/img/features/f2.png"
           alt="feature 2"
           class="feature__img"
         />
@@ -86,7 +116,7 @@
       </div>
       <div class="feature-box">
         <img
-          src="./assets/img/features/f3.png"
+          src="../assets/img/features/f3.png"
           alt="feature 3"
           class="feature__img"
         />
@@ -94,7 +124,7 @@
       </div>
       <div class="feature-box">
         <img
-          src="./assets/img/features/f4.png"
+          src="../assets/img/features/f4.png"
           alt="feature 4"
           class="feature__img"
         />
@@ -102,7 +132,7 @@
       </div>
       <div class="feature-box">
         <img
-          src="./assets/img/features/f5.png"
+          src="../assets/img/features/f5.png"
           alt="feature 5"
           class="feature__img"
         />
@@ -110,72 +140,13 @@
       </div>
       <div class="feature-box">
         <img
-          src="./assets/img/features/f6.png"
+          src="../assets/img/features/f6.png"
           alt="feature 6"
           class="feature__img"
         />
         <h6 class="feature__text-h6">Full 24/7 Support</h6>
       </div>
     </section>
-
-    <section id="product1" class="product1 section-p1">
-      <h2 class="product1__text-h2">Featured Products</h2>
-      <p class="product1__text-p">Summer Collection New Modern Design</p>
-      <div class="product__container" id="product-container">
-        <!-- this section will be rendered by JS -->
-      </div>
-    </section>
-
-    <section id="banner" class="banner section-m1">
-      <h4 class="banner-text-h4">Repair Services</h4>
-      <h2 class="banner-text-h2">
-        Up to <span>70% off</span> - All T-Shirt & Accessories
-      </h2>
-      <button class="banner-button normal">Explore More</button>
-    </section>
-
-    <section id="product1" class="product1 section-p1">
-      <h2 class="product1__text-h2">New Arrivals</h2>
-      <p class="product1__text-p">Summer Collection New Modern Design</p>
-      <div class="product__container" id="product-container-2">
-        <!-- this section will be rendered by JS -->
-      </div>
-    </section>
-
-    <section id="sm-banner" class="sm-banner section-p1">
-      <div class="sm-banner-box">
-        <h4 class="sm-banner__text-h4">crazy deals</h4>
-        <h2 class="sm-banner__text-h2">buy 1 get 1 free</h2>
-        <span class="sm-banner__button"
-          >The best classic dress is on sale at cara</span
-        >
-        <button class="sm-banner__button white">Learn More</button>
-      </div>
-
-      <div class="sm-banner-box sm-banner-box-2">
-        <h4 class="sm-banner__text-h4">sping/summer</h4>
-        <h2 class="sm-banner__text-h2">upcomming seasson</h2>
-        <span class="sm-banner__button"
-          >The best classic dress is ob sale at cara</span
-        >
-        <button class="sm-banner__button white">Collection</button>
-      </div>
-    </section>
-
-    <secion id="banner3" class="banner3">
-      <div class="sm-banner-box-3">
-        <h2 class="sm-banner__text-h2">SEASONAL SALE</h2>
-        <h3 class="sm-banner__text-h3">Whinter Collection -50% off</h3>
-      </div>
-      <div class="sm-banner-box-3 banner-box-2">
-        <h2 class="sm-banner__text-h2">NEW FOOTWEAR COLLECTION</h2>
-        <h3 class="sm-banner__text-h3">spring / summer 2022</h3>
-      </div>
-      <div class="sm-banner-box-3 banner-box-3">
-        <h2 class="sm-banner__text-h2">T-SHIRTS</h2>
-        <h3 class="sm-banner__text-h3">New Trendy Prints</h3>
-      </div>
-    </secion>
 
     <section id="newsletters" class="newsletters section-p1">
       <div class="newsletters-container">
@@ -190,10 +161,9 @@
         <button type="submit" class="normal">Sign Up</button>
       </form>
     </section>
-
     <footer id="footer" class="footer section-p1">
       <div class="footer-col">
-        <img src="assets/img/logo.png" alt="cara" class="footer-logo" />
+        <img src="../assets/img/logo.png" alt="cara" class="footer-logo" />
         <h4 class="footer-text-h4">Contact</h4>
         <p class="footer-text-p">
           <span>Adress: </span>123 Nowhere Road, St. 32, Buenos Aires.
@@ -234,11 +204,11 @@
         <h4 class="footer-text-h4">Install App</h4>
         <p class="footer-text-p">From App Store or Google Play</p>
         <div class="footer row">
-          <img src="assets/img/pay/app.jpg" alt="App store" />
-          <img src="assets/img/pay/play.jpg" alt="Play store" />
+          <img src="../assets/img/pay/app.jpg" alt="App store" />
+          <img src="../assets/img/pay/play.jpg" alt="Play store" />
         </div>
         <p class="footer-text-p">Secured Payment Gateways</p>
-        <img src="assets/img/pay/pay.png" alt="Pay methods" />
+        <img src="../assets/img/pay/pay.png" alt="Pay methods" />
       </div>
       <div class="copyright">
         <p class="copy">
@@ -246,7 +216,7 @@
         </p>
       </div>
     </footer>
-    <!-- scripts -->
-    <script src="js/app.js" type="module"></script>
+    <!-- script -->
+    <script src="../js/app.js" type="module"></script>
   </body>
 </html>
