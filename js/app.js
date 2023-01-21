@@ -1,22 +1,4 @@
-// NAVBAR
-console.log("app conected");
-
-const bar = document.getElementById("bar");
-const nav = document.getElementById("navbar");
-const close = document.getElementById("close");
-
-if (bar) {
-  bar.addEventListener("click", () => {
-    nav.classList.add("active");
-  });
-}
-
-if (close) {
-  close.addEventListener("click", () => {
-    nav.classList.remove("active");
-  });
-}
-
+import { menu } from "./menu.js";
 // this arrays could be replaced for a mock.json and use fetch API for render all of ten
 
 let products = new Array();
@@ -43,7 +25,7 @@ const renderProducts = () => {
   let div = "";
   products.forEach((el) => {
     div = div += `
-        <div class="product">
+        <div class="product" onclick="window.location.href='../pages/singleProduct.html'">
           <img
             src="${el}"
             alt="product"
@@ -74,7 +56,7 @@ const renderProducts2 = () => {
   let div = "";
   newArrivals.forEach((el) => {
     div = div += `
-        <div class="product">
+        <div class="product" onclick="window.location.href='../pages/singleProduct.html'">
           <img
             src="${el}"
             alt="product"
@@ -102,6 +84,7 @@ const renderProducts2 = () => {
 };
 
 document.addEventListener("DOMContentLoaded", () => {
+  menu();
   renderProducts();
   renderProducts2();
 });
